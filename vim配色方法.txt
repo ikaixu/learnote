@@ -1,0 +1,13 @@
+第一步：在用户根目录~下创建.vim文件夹
+第二步：从github上克隆molokai
+	克隆命令是：git clone https://github.com/tomasr/molokai.git
+	注意克隆到新建的.vim目录下
+第三步：在~下新建.vimrc文件，这是一个vim配置文件。在配置文件中写如下内容：
+	syntax enable
+	colorschme monokai
+	highlight NonText guibg=#060606
+	highlight Folded guibg=#0A)A)A guifg=#9090D0
+第四步：水平与垂直方向高亮的配置:
+	au WinLeave * set nocursorline nocursorcolumn
+	au WinEnter * set cursoline cursorcolumn
+	set cursorline cursorcolumn	
