@@ -1,0 +1,18 @@
+昨天第一次真正配置github，现在写下
+配置过程，作为以后参考
+第一步：注册github的账号，键入github.com按提示注册
+第二步：在自己的电脑的某盘中建一个git的目录
+第三步：配置ssh-keygen -t rsa -C "your_email@youremail.com"
+第四步：打开生成的.ssh目录，复制id_rsa.pub里面的key,回到github上进入账户配置，选择添加ssh keys
+第五步：键入ssh -T git@github.com检查是否成功
+第六步：切到新建的git目录下，打开linux bash键入git init。会产生一个.git的目录
+第七步：touch README.md  新建了一个README.md的文件
+第八步：git add README.md
+第九步：git commit -m "描述一下READMe.md"
+第十步：git push origin master
+补充：git push 需要输入密码的解决方案
+      git remove -V
+      git remote rm origin
+      git remote add origin git@github.com:username/repository.git
+      git push -u origin master
+补充：这次配置是在win10内核支持的linux下进行配置的
