@@ -16,3 +16,7 @@
       git remote add origin git@github.com:username/repository.git
       git push -u origin master
 补充：这次配置是在win10内核支持的linux下进行配置的
+补充：git config --global user.name "your_username"
+      git config --global user.email "your_email@youremail.com"
+      这两个操作会在第一次上传项目的时候遇到
+      这里第一次上传的项目是README.md文件
