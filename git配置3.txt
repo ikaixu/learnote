@@ -7,7 +7,7 @@
                    粘贴在你电脑上生成的key
                  4、验证ssh是否配置好：ssh -T git@github.com
                  5、写配置文件：git config --global user.name "your name"
-                 			  git config --global user.email "your_email@youremail.com"
+                 	       git config --global user.email "your_email@youremail.com"
 使用git的方式：1、添加文件：git add filename
 			  git commit -m "文件修改评注"
 	      2、删除文件：git rm filename
