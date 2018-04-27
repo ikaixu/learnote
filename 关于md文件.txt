@@ -1,0 +1,8 @@
+戊戌年 丙辰月 己丑日
+于丁山
+今天才知道md文件叫做markdown文档。
+而github上的README.md文件是这个仓库的说明文档。
+markdown文档需要用markdown语法去写，这个文件的编写使用普通的编辑器就可以完成。
+关于markdown的官方描述：
+                       Markdown 语法的目标是：成为一种适用于网络的书写语言。
+                       Markdown 的目标是实现「易读易写」。
