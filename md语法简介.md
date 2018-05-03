@@ -101,3 +101,8 @@ id sem consectetuer libero luctus adipiscing.
 
     4个空格
 
+如果要在列表项目内放进引用，那 > 就需要缩进：
+*   A list item with a blockquote:
+
+    > This is a blockquote
+    > inside a list item.
