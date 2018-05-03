@@ -106,3 +106,7 @@ id sem consectetuer libero luctus adipiscing.
 
     > This is a blockquote
     > inside a list item.
+
+如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符：
+*	一个列表项包含一个列表区块：
+		<代码写在这里>
