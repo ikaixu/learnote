@@ -1,7 +1,9 @@
 # 关于archlinux的配置 #
 
-> linux版本：archlinux 
+> linux版本：archlinux
+>
 > 桌面环境：kde plasma
+>
 
 ## 1.本地化 ##
 1. 在/etc/locale.gen中选择en_US.UTF-8和zh_CN.UTF-8,删除#号就可以
@@ -16,14 +18,22 @@
 2. 安装第三方输入法模块（例如：fcitx-googlepinyin），也可以直接使用内置输入法（会比较难用）
 3. 安装kcm-fcitx,这是kde的fcitx输入法模块，安装他之后就可以配置fcitx
 4. 在kde桌面打开fcitx配置软件，设置中文输入法
-6. 重启系统
+5. 重启系统
+
 >  上面是官方wkiki上的步骤，但是重启后有可能依然无法激活输入法
+>
 >  在命令行输入fcitx -r
+>
 >  我的提示设置XMODIFIERS环境变量
+>
 >  两种方式设置这个环境变量：创建~/.xprofile或者在/etc/environment写入
+>
 >  这列选择的是后者，它是全局有效的变量
+>
 >  写入内容:
-        >>  export GTK_IM_MODULE=fcitx
-            export QT_IM_MODULE=fcitx
-            export XMODIFIERS=@im=fcitx
+>> export GTK_IM_MODULE=fcitx
+>>
+>> export QT_IM_MODULE=fcitx
+>>
+>> export XMODIFIERS=@im=fcitx
 
