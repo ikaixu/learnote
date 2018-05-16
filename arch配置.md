@@ -36,3 +36,14 @@
 >>
 >>  export XMODIFIERS=@im=fcitx
 
+## 3.配置archinuxcn ##
+安装yaourt需要用到
+> 
+> [archlinuxcn]
+> 
+> SigLevel = Optional TrustAll
+>
+> Server   = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+>
+> 必须配置SigLevel，否则yaourt安装文件时会出问题
+> 
