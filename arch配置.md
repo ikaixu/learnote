@@ -50,5 +50,36 @@
 
 ## 4.配置nvidia独立显卡的正确姿势 ##
 1. 官方安装:  pacman  -S  nvidia  xorg-xrandr
-2. 创建xorg.conf
-3. 配置登录管理器 
+2. 配置登录管理器 
+> 
+> sddm
+> 
+>>  # nano /usr/share/sddm/scripts/Xsetup
+>> 
+>> ___________________________________________
+>> 
+>> xrandr --setprovideroutputsource modesetting NVIDIA-0
+>> 
+>> xrandr --auto
+>> 
+>
+> gdm
+>
+>> /usr/share/gdm/greeter/autostart/optimus.desktop
+>>
+>> /etc/xdg/autostart/optimus.desktop
+>> 
+>> ____________________________________________________
+>>
+>> [Desktop Entry]
+>> Type=Application
+>>
+>> Name=Optimus
+>>
+>> Exec=sh -c "xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto"
+>>
+>> NoDisplay=true
+>>
+>> X-GNOME-Autostart-Phase=DisplayServer
+>>
+>
