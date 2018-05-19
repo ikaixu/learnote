@@ -54,7 +54,7 @@
 > 
 > sddm
 > 
->>  # nano /usr/share/sddm/scripts/Xsetup
+>>  nano /usr/share/sddm/scripts/Xsetup
 >> 
 >> ___________________________________________
 >> 
