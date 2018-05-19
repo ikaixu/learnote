@@ -47,3 +47,8 @@
 >
 > 必须配置SigLevel，否则yaourt安装文件时会出问题
 > 
+
+## 4.配置nvidia独立显卡的正确姿势 ##
+1. 官方安装:  pacman  -S  nvidia  xorg-xrandr
+2. 创建xorg.conf
+3. 配置登录管理器 
