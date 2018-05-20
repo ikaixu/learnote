@@ -14,12 +14,9 @@
  >
 3. 回到`github`上，进入 `Account Settings`（账户配置），左边选择`SSH Keys`，`Add SSH Key`粘贴在你电脑上生成的key
 4. 验证`ssh`是否配置好:`ssh -T git@github.com`
-5. 写配置文件：
- >
- > git config --global user.name "your name"
- >
- > git config --global user.email "your_email@youremail.com"
- >
+5. 写配置文件:  
+            `git config --global user.name "your name"`  
+            `git config --global user.email "your_email@youremail.com"`
 
 
 ## 使用git的方式： ##
