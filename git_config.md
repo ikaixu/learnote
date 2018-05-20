@@ -8,9 +8,11 @@
  > 注：后面的your_email@youremail.com改为你在github上注册的邮箱
  > 成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key
 3. 回到github上，进入 Account Settings（账户配置），左边选择SSH Keys，Add SSH Key粘贴在你电脑上生成的key
-4. 验证ssh是否配置好：ssh -T git@github.com
-5. 写配置文件：>> git config --global user.name "your name"
-             >> git config --global user.email "your_email@youremail.com"
+4. 验证ssh是否配置好：
+                    ssh -T git@github.com
+5. 写配置文件：
+  > git config --global user.name "your name"
+  > git config --global user.email "your_email@youremail.com"
 
 ## 使用git的方式： ##
 1、添加文件：git add filenamegit commit -m "文件修改评注"
