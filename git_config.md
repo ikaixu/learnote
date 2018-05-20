@@ -29,8 +29,8 @@
 >         `git add filename`
 >         `git commit -m "文件修改评注"`
 2. 删除文件:
->          *git rm filename*
->          *git commit -m ""*
+>          _git rm filename_
+>          _git commit -m ""_
 >
 >> 注：第一步是用 `git add` 把文件添加进去，实际上就是把文件修改添加到暂存区；
 >
