@@ -15,8 +15,8 @@
 3. 回到`github`上，进入 `Account Settings`（账户配置），左边选择`SSH Keys`，`Add SSH Key`粘贴在你电脑上生成的key
 4. 验证`ssh`是否配置好:`ssh -T git@github.com`
 5. 写配置文件:  
-            `git config --global user.name "your name"`  
-            `git config --global user.email "your_email@youremail.com"`
+&emsp;&emsp;&emsp;&ensp;`git config --global user.name "your name"`  
+&emsp;&emsp;&emsp;&ensp;`git config --global user.email "your_email@youremail.com"`
 
 
 ## 使用git的方式： ##
@@ -25,8 +25,8 @@
 &emsp;&emsp;&emsp;&ensp;`git add filename`             
 &emsp;&emsp;&emsp;&ensp;`git commit -m "文件修改评注"`
 2. 删除文件:  
-           `git rm filename`  
-           `git commit -m ""`
+&emsp;&emsp;&emsp;&ensp;`git rm filename`  
+&emsp;&emsp;&emsp;&ensp;`git commit -m ""`
 > 注：第一步是用 `git add` 把文件添加进去，实际上就是把文件修改添加到暂存区；  
 > 第二步是用 `git commit` 提交更改，实际上就是把暂存区的所有内容提交到当前分支。  
 3. 修改文件和添加文件的操作相同
