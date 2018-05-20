@@ -6,15 +6,14 @@
 ## 配置github的过程： ##
 
 1. 官网注册账号，验证邮箱
-2. 本地配置ssh： ssh-keygen -t rsa -C "your_email@youremail.com"
+2. 本地配置`ssh`： `ssh-keygen -t rsa -C "your_email@youremail.com"`
  >
- > 注：后面的your_email@youremail.com改为你在github上注册的邮箱
+ > 注：后面的`your_email@youremail.com`改为你在github上注册的邮箱
  >
- >成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key
+ >成功的话会在`~/`下生成`.ssh`文件夹，进去，打开`id_rsa.pub`，复制里面的key
  >
-3. 回到github上，进入 Account Settings（账户配置），左边选择SSH Keys，Add SSH Key粘贴在你电脑上生成的key
-4. 验证ssh是否配置好
- > ssh -T git@github.com
+3. 回到`github`上，进入 `Account Settings`（账户配置），左边选择`SSH Keys`，`Add SSH Key`粘贴在你电脑上生成的key
+4. 验证`ssh`是否配置好:`ssh -T git@github.com`
 5. 写配置文件：
  >
  > git config --global user.name "your name"
