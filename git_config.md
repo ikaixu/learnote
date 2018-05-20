@@ -26,12 +26,11 @@
 ## 使用git的方式： ##
 
 1. 添加文件：
->         `git add filename`
->         `git commit -m "文件修改评注"`
+>          git add filename 
+>          git commit -m "文件修改评注"
 2. 删除文件:
->          _git rm filename_
->          _git commit -m ""_
->
+>           git rm filename 
+>           git commit -m ""
 >> 注：第一步是用 `git add` 把文件添加进去，实际上就是把文件修改添加到暂存区；
 >
 >> 第二步是用 `git commit` 提交更改，实际上就是把暂存区的所有内容提交到当前分支。
@@ -43,14 +42,14 @@
 ## GitHub的使用:  ##
 
 ### 方式一： ###
-1. 在GitHub上创建一个初始化过的新远程库
-2. git clone 把远程仓库下载到本地。克隆地址使用ssh地址（push的时候，可以不用输入密码）。
+1. 在`GitHub`上创建一个初始化过的新远程库
+2. `git clone` 把远程仓库下载到本地。克隆地址使用`ssh`地址（`push`的时候，可以不用输入密码）。
 3. 在本地进行一些增删改动操作
-4. git push origin master推送到Github上的远程库
+4. `git push origin master`推送到`Github`上的远程库
 
 ### 方式二： ###
-1. 在本地创建本地仓库，git init
-2. 在github上新建一个新的远程库
-3. 要关联一个github上的远程库，使用命令git remote add origin git@github:username/reponame.git；
-4. 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
-5. 此后，每次本地提交后，就可以使用命令git push origin master推送最新修改
+1. 在本地创建本地仓库，`git init`
+2. 在`github`上新建一个新的远程库
+3. 要关联一个`github`上的远程库，使用命令`git remote add origin git@github:username/reponame.git`；
+4. 关联后，使用命令`git push -u origin master`第一次推送`master`分支的所有内容；
+5. 此后，每次本地提交后，就可以使用命令`git push origin master`推送最新修改
