@@ -26,10 +26,9 @@
 ## 使用git的方式： ##
 
 1. 添加文件：
->>            git add filename
->>            git commit -m "文件修改评注"
-2. 删除文件：git rm filename
-git commit -m ""
+>          git add filename
+>          git commit -m "文件修改评注"
+2. 删除文件：  > git rm filename  > git commit -m ""
 >
 > 注：第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
 >
