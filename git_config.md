@@ -21,9 +21,9 @@
 
 ## 使用git的方式： ##
 
-1. 添加文件：
->          git add filename 
->          git commit -m "文件修改评注"
+1. 添加文件：  
+        `git add filename`  
+        `git commit -m "文件修改评注"`
 2. 删除文件:
 >           git rm filename 
 >           git commit -m ""
