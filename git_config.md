@@ -22,8 +22,8 @@
 ## 使用git的方式： ##
 
 1. 添加文件：  
-&emsp&emsp&emsp&ensp`git add filename`             
-&emsp&emsp&emsp&ensp`git commit -m "文件修改评注"`
+&emsp;&emsp;&emsp;&ensp;`git add filename`             
+&emsp;&emsp;&emsp;&ensp;`git commit -m "文件修改评注"`
 2. 删除文件:  
            `git rm filename`  
            `git commit -m ""`
