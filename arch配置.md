@@ -83,6 +83,6 @@
 >> X-GNOME-Autostart-Phase=DisplayServer
 >>
 >  
-+ 注意：这里装机的时候没有安装intel集成显卡的驱动，直接从官方源中安装的nvidia官方闭源驱动。  
-+ &emsp;看来不需要像官网文档中所说的，要配置xorg.conf这些文件。只需要配置sddm的启动脚本就可以。
-+ &emsp;开机后可以通过`lspci -kv`命令查看是否有`kernel driver in use : nvidia`,我的机器有这么一行。
++ 这里装机的时候没有安装intel集成显卡的驱动，直接从官方源中安装的nvidia官方闭源驱动。  
++ 看来不需要像官网文档中所说的，要配置xorg.conf这些文件。只需要配置sddm的启动脚本就可以。
++ 开机后可以通过`lspci -kv`命令查看是否有`kernel driver in use : nvidia`,我的机器有这么一行。
