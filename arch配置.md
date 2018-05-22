@@ -97,7 +97,7 @@
 > export XMODIFIERS=@im=fcitx  
 4. `kde`下安装`pacman -S fcitx-qt5`,`gnome`下安装`pacman -S fcitx-gtk3`
 5. 配置好`yaourt`，然后安装搜狗输入法`yaourt -S fcitx-sogoupinyin`  
-**[注意]**
+**[注意]**  
 **经过上述步骤后，搜狗输入法一直无法启动`kimpanel`，打开输入法不出现选词框**  
-**经过反复实验，问题在于依赖的环境没有解决**
+**经过反复实验，问题在于依赖的环境没有解决**  
 **解决办法是安装`fcitx-im`，把所有的依赖环境都安装上去**
