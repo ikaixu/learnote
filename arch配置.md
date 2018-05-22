@@ -88,7 +88,7 @@
 + 开机后可以通过`lspci -kv`命令查看是否有`kernel driver in use : nvidia`,我的机器有这么一行。
 + **注意一点：这样配置的只能使用nvidia独显，intel的核心显卡不工作，无法实现optimus功能**
 
-## 搜狗输入法的问题 ##
+## 5.搜狗输入法的问题 ##
 1. 安装输入法框架`pacman -S fcitx`
 2. 安装输入法配置模块,`kde`下`pacman -S kcm-fcitx`,`gnome`下`pacman -S fcitx-configtool`
 3. 在/etc/environment写环境变量：
