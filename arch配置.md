@@ -89,13 +89,15 @@
 + **注意一点：这样配置的只能使用nvidia独显，intel的核心显卡不工作，无法实现optimus功能**
 
 ## 搜狗输入法的问题 ##
-+ 安装输入法框架`pacman -S fcitx`
-+ 安装输入法配置模块,`kde`下`pacman -S kcm-fcitx`,`gnome`下`pacman -S fcitx-configtool`
-+ 在/etc/environment写环境变量：
+1. 安装输入法框架`pacman -S fcitx`
+2. 安装输入法配置模块,`kde`下`pacman -S kcm-fcitx`,`gnome`下`pacman -S fcitx-configtool`
+3. 在/etc/environment写环境变量：
 > export GTK_IM_MODULE=fcitx  
 > export QT_IM_MODULE=fcitx  
-> export XMODIFIERS=@im=fcitx
-+ 配置好`yaourt`，然后安装搜狗输入法`yaourt -S fcitx-sogoupinyin`
-+ 搜狗输入发一直无法启动kimpanel，打开输入法无法出现选词框
-> 经过反复实验，问题在于依赖的环境没有解决
-> 解决办法是安装`fcitx-im`，把所有的依赖环境都安装上去
+> export XMODIFIERS=@im=fcitx  
+4. `kde`下安装`pacman -S fcitx-qt5`,`gnome`下安装`pacman -S fcitx-gtk3`
+5. 配置好`yaourt`，然后安装搜狗输入法`yaourt -S fcitx-sogoupinyin`  
+**[注意]**
+**经过上述步骤后，搜狗输入法一直无法启动[kimpanel]，打开输入法[不出现选词框]**
+**经过反复实验，问题在于依赖的环境没有解决**
+**解决办法是安装[fcitx-im]，把所有的依赖环境都安装上去**
