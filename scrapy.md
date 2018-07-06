@@ -12,14 +12,14 @@ archlinux下安装scrapy：pip install scrapy
 4. 储存内容：通过编辑piplines.py设计管道存储爬取的内容  
 > 这里详细讲解每个步骤：  
 > 第一步过后，会产生一个xxx的文件夹，它的目录结构是：
->              xxx/
->                scrapy.cfg
->                xxx/
->                  __init__.py
->                  __pycache__
->                  items.py
->                  pipelines.py
->                  settings.py
->                  spiders/
->                     __init__.py
->                     __pycache__
+                >              xxx/
+                >                scrapy.cfg
+                >                xxx/
+                >                  __init__.py
+                >                  __pycache__
+                >                  items.py
+                >                  pipelines.py
+                >                  settings.py
+                >                  spiders/
+                >                     __init__.py
+                >                     __pycache__
