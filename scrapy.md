@@ -12,6 +12,7 @@ archlinux下安装scrapy：pip install scrapy
 4. 储存内容：通过编辑piplines.py设计管道存储爬取的内容  
 
 ### 案例 ###
+键入`scrapy startproject demoz`新建一个demoz的文件  
 编辑items.py  
 
                 import scrapy
@@ -38,3 +39,5 @@ archlinux下安装scrapy：pip install scrapy
                         filename = response.url.split("/")[-2]
                         with open(filename, 'wb') as f:
                             f.write(response.body)
+
+键入`scrapy crawl dmoz`就可以爬取数据，关于提取网页数据稍后更新。
