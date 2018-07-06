@@ -12,7 +12,8 @@ archlinux下安装scrapy：pip install scrapy
 4. 储存内容：通过编辑piplines.py设计管道存储爬取的内容  
 
 ### 案例 ###
-编辑items.py
+编辑items.py  
+
                 import scrapy
 
                 class DmozItem(scrapy.Item):
@@ -21,7 +22,8 @@ archlinux下安装scrapy：pip install scrapy
                     desc = scrapy.Field()
 
 在项目的spider目录下，命令行中键入`scrapy genspider demoz`  
-编辑生成的demoz.py文件
+编辑生成的demoz.py文件  
+
                 import scrapy
 
                 class DmozSpider(scrapy.Spider):
