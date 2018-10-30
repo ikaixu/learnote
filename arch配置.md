@@ -101,3 +101,10 @@
 **经过上述步骤后，搜狗输入法一直无法启动`kimpanel`，打开输入法不出现选词框**  
 **经过反复实验，问题在于依赖的环境没有解决**  
 **解决办法是安装`fcitx-im`，把所有的依赖环境都安装上去**
+
+## 6.字体配置 ##
+1. 安装的中文字体为wqy-zenhei  
+2. 第二种中文字体为noto-sans-cjk  
+3. kde中的配置选项为：常规`Noto Sans CJK` 11； 等宽字体 `mononoki` 9; 小字体 `sans serif` 8; 工具栏 `sans serif` 10; 菜单 `sans serif` 10; 窗口标题 'sans serif' 10; 反锯齿 `启用`; 次像素渲染类型 RGB  
+4. 此外还安装有，unbuntu-family-font，mononoki，ttf-dejavu，ttf-hack，free-font，stix详情参考archlinux介绍  
+5. `https://wiki.archlinux.org/index.php/Fonts`
