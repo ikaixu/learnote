@@ -50,3 +50,20 @@
 
 用到再补全
 
+# 1简单上手使用案例 #
+## 上手 ##
+1. 创建mckk用户，赋予所有的数据库和表完全的权限  
+2. 连接到服务器:`mysql -u mckk -p`  
+3. 查看服务器上已经存在的数据库:`show databases;`  
+4. 建一个数据库:`create database test;`  
+5. 在该数据库下建一个表:`create table test.books(book_id int, title text, status int);`  
+6. 列出数据库test中所有表:`show tables from test;`  
+7. 切换到数据库`use test;`  
+8. tips:上面建完数据库后，就可以切换到数据库，然后在数据库里`create table`  
+9. 展示test中所有表`show tables;`  
+10. 展示表的结构`describe books;`  
+
+## 插入和操作数据 ##
+
+## 连接表格做分析 ##
+
