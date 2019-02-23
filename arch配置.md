@@ -108,3 +108,14 @@
 3. kde中的配置选项为：常规`Noto Sans CJK` 11； 等宽字体 `mononoki` 9; 小字体 `sans serif` 8; 工具栏 `sans serif` 10; 菜单 `sans serif` 10; 窗口标题 'sans serif' 10; 反锯齿 `启用`; 次像素渲染类型 RGB  
 4. 此外还安装有，unbuntu-family-font，mononoki，ttf-dejavu，ttf-hack，free-font，stix详情参考archlinux介绍  
 5. `https://wiki.archlinux.org/index.php/Fonts`
+
+## 7.jdk配置 ##
+1. 把下载好的jdk放到/usr/lib/jvm目录下  
+2. 这样就可以使用archlinux-java命令设置环境  
+>   archlinux-java <COMMAND>
+>   COMMAND:
+	status		List installed Java environments and enabled one
+	get		Return the short name of the Java environment set as default
+	set <JAVA_ENV>	Force <JAVA_ENV> as default
+	unset		Unset current default Java environment
+	fix		Fix an invalid/broken default Java environment configuration
