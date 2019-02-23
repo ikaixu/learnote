@@ -114,8 +114,8 @@
 2. 这样就可以使用archlinux-java命令设置环境  
 >   archlinux-java <COMMAND>  
 COMMAND:  
->> **status**     List installed Java environments and enabled one  
->> **get**         Return the short name of the Java environment set as default  
->> **set**         <JAVA_ENV> Force <JAVA_ENV> as default  
->> **unset**     Unset current default Java environment  
->> **fix**          Fix an invalid/broken default Java environment configuration
+>> **status**       List installed Java environments and enabled one  
+>> **get**           Return the short name of the Java environment set as default  
+>> **set**          <JAVA_ENV> Force <JAVA_ENV> as default  
+>> **unset**    Unset current default Java environment  
+>> **fix**           Fix an invalid/broken default Java environment configuration
